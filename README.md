@@ -1,4 +1,4 @@
-# -ESP32-Micropython-SSD1306-Chinese
+# -ESP8266-Micropython-SSD1306-Chinese （4spi）
 在ESP32上用Micropython控制SSD1306显示中文，并获取天气信息和时间信息
 
 #### 文件介绍
@@ -192,6 +192,3 @@ def draw_chinese_fast(self,ch_str,x_axis,y_axis):
 
 总结，直接进行缓冲区写入速度非常快，可以保证实时刷新oled显示
 
-##### 7.xmlConvert.py
-
-​	对天气信息获取为xml格式文档，对文档中的数据进行处理，提取需要的数据
