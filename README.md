@@ -1,7 +1,8 @@
 # ESP8266-Micropython-SSD1306-Chinese （4spi）
 在ESP8266上用Micropython使用SSD1306库用spi方式驱动oled显示中文.
-使用的是7针的模块，默认使用4spi方式驱动。
-
+使用的是7针的oled模块，默认使用4spi方式驱动。
+# esp8266和oled模块连线
+![image](https://user-images.githubusercontent.com/48639047/223399730-16849fcf-e5ca-4a99-b155-50e0630063f9.png)
 
 #### 文件介绍
 
@@ -9,7 +10,7 @@
 
 运用本仓库中的方法实现oled显示的一个示例。
 
-会显示一行字:天气多云转晴
+会显示一行字:天气多云
 
 ##### 2.font.py
 如果你使用下文中提到的draw_chinese()方法来显示中文，则将这个文件传入esp8266。

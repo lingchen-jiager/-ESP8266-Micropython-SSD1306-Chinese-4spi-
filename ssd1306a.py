@@ -97,7 +97,7 @@ class SSD1306(framebuf.FrameBuffer):
         y_axis = y_axis * 16  # 中文高度一行占8个
         x_axis = (x_axis * 16)  # 中文宽度占16个
         order = []
-        for i in ch_str:
+        for i in ch_str:  #这里莫名其妙显示字符串的顺序不对，所以对字符串做一个逆序操作
             order.append(i)
         order.reverse()
         ch_str1 = "".join(order)
