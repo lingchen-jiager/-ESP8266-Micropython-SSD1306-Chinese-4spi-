@@ -91,7 +91,7 @@ class SSD1306(framebuf.FrameBuffer):
         self.write_cmd(self.pages - 1)
         self.write_data(self.buffer)
 		
-    def draw_chinese(ch_str,x_axis,y_axis):
+    def draw_chinese(self,ch_str,x_axis,y_axis):
       offset_=0
       y_axis=y_axis*16#中文高度一行占8个
       x_axis=(x_axis*16)#中文宽度占16个
