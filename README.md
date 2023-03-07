@@ -1,5 +1,7 @@
-# -ESP8266-Micropython-SSD1306-Chinese （4spi）
-在ESP32上用Micropython控制SSD1306显示中文，并获取天气信息和时间信息
+# ESP8266-Micropython-SSD1306-Chinese （4spi）
+在ESP8266上用Micropython使用SSD1306库用spi方式驱动oled显示中文.
+使用的是7针的模块，默认使用4spi方式驱动。
+
 
 #### 文件介绍
 
